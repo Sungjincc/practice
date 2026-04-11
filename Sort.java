@@ -30,4 +30,19 @@ public class Sort {
             Swap(arr,minIndex,i);
         }
     }
+    public static void insertSortAsc(int[] arr)
+    {
+      for(int i = 1; i<arr.length; i++)
+      {
+          int target = arr[i];
+          int prev = i-1;
+          while(prev >=0 && arr[prev] > target)
+          {
+              arr[prev+1] = arr[prev];
+              prev--;
+          }
+          arr[prev+1] = target;
+      }
+    }
+
 }
