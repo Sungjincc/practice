@@ -9,7 +9,7 @@ public class Sort {
         {
             arr[i] = sc.nextInt();
         }
-        bubbleSortAsc(arr);
+        shakerSortAsc(arr);
         System.out.println(Arrays.toString(arr));
     }
     public static void Swap(int[] arr,int a,int b)
@@ -61,6 +61,38 @@ public class Sort {
             }
             if(loop == false) isEnd = true;
             lastIndex++;
+        }
+    }
+    public static void shakerSortAsc(int[] arr)
+    {
+        int left = 0;
+        int right = arr.length -1;
+        int lastIndex = left;
+        while(left<right)
+        {
+            boolean loop = false;
+            for(int i = left; i<right;i++)
+            {
+                if(arr[i]>arr[i+1])
+                {
+                    Swap(arr,i,i+1);
+                    loop = true;
+                    lastIndex = i;
+                }
+            }
+            if(loop == false) break;
+            right = lastIndex;
+            for(int i = right; i>left;i--)
+            {
+                if(arr[i]<arr[i-1])
+                {
+                    Swap(arr,i,i-1);
+                    loop = true;
+                    lastIndex = i;
+                }
+            }
+            if(loop == false) break;
+            left = lastIndex;
         }
     }
 }
