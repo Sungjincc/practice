@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" pages="4">
+  <diagram name="페이지-1" id="0niDzU7R1UAu_r7i4m3B">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DPX1tlZfWtjvljuRme4H-121" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="開始" vertex="1">
+          <mxGeometry height="60" width="100" x="350" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-122" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="200" as="sourcePoint" />
+            <mxPoint x="400" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-124" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" value="i:0 ; i&amp;lt;arr.length; 1&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="140" x="330" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-125" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.64" y="300" as="sourcePoint" />
+            <mxPoint x="399.64" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-126" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="minIndex &amp;lt;- i" vertex="1">
+          <mxGeometry height="60" width="150" x="325" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-127" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" value="j:i+1 ; j&amp;lt;arr.length; 1&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="140" x="325" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-128" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.64" y="400" as="sourcePoint" />
+            <mxPoint x="399.64" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-129" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="arr[minIndex] &amp;gt; arr[j]" vertex="1">
+          <mxGeometry height="100" width="130" x="335" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-130" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.64" y="500" as="sourcePoint" />
+            <mxPoint x="399.64" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-131" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="550" />
+            </Array>
+            <mxPoint x="465" y="550" as="sourcePoint" />
+            <mxPoint x="560" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-133" connectable="0" parent="DPX1tlZfWtjvljuRme4H-131" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Yes" vertex="1">
+          <mxGeometry relative="1" x="-0.1853" y="-2" as="geometry">
+            <mxPoint x="4" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-132" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="minIndex &amp;lt;- j" vertex="1">
+          <mxGeometry height="100" width="100" x="510" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-134" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="780" as="sourcePoint" />
+            <mxPoint x="399.64" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-135" connectable="0" parent="DPX1tlZfWtjvljuRme4H-134" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="No" vertex="1">
+          <mxGeometry relative="1" x="0.1118" y="1" as="geometry">
+            <mxPoint x="-19" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-140" edge="1" parent="1" source="DPX1tlZfWtjvljuRme4H-132" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="760" />
+            </Array>
+            <mxPoint x="573.7" y="730" as="sourcePoint" />
+            <mxPoint x="400" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-141" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" value="" vertex="1">
+          <mxGeometry height="60" width="140" x="330" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-142" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.75" y="880" as="sourcePoint" />
+            <mxPoint x="399.75" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-143" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="temp &amp;lt;- arr[i]&lt;div&gt;arr[i]&amp;lt;-arr[minIndex]&lt;/div&gt;&lt;div&gt;arr[minIndex]&amp;lt;-temp&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-144" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.38" y="980" as="sourcePoint" />
+            <mxPoint x="399.38" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-145" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" value="" vertex="1">
+          <mxGeometry height="60" width="140" x="330" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-146" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="終了" vertex="1">
+          <mxGeometry height="60" width="100" x="345" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="DPX1tlZfWtjvljuRme4H-148" edge="1" parent="1" source="DPX1tlZfWtjvljuRme4H-146" style="endArrow=none;html=1;rounded=0;exitX=0.55;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="399.79" y="1060" as="sourcePoint" />
+            <mxPoint x="399.79" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MO1ItcZKqt-UApg2my1w" name="페이지-2">
+    <mxGraphModel dx="1453" dy="816" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QuEnYvkEs_Yd8NfjYmEW" name="페이지-3">
+    <mxGraphModel dx="1453" dy="816" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="le2HLmvyATspsUN1IxOH" name="페이지-4">
+    <mxGraphModel dx="1453" dy="816" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
