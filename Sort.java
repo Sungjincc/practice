@@ -9,7 +9,7 @@ public class Sort {
         {
             arr[i] = sc.nextInt();
         }
-        shakerSortAsc(arr);
+        combSort(arr);
         System.out.println(Arrays.toString(arr));
     }
     public static void Swap(int[] arr,int a,int b)
@@ -93,6 +93,29 @@ public class Sort {
             }
             if(loop == false) break;
             left = lastIndex;
+        }
+    }
+
+    public static void combSort(int [] arr)
+    {
+        int gap = arr.length;
+        boolean swapped = true;
+        while(gap!=1||swapped == true)
+        {
+            gap = (gap *10)/13;
+            if(gap<1)
+            {
+                gap = 1;
+            }
+            swapped= false;
+            for(int i = 0 ;i<arr.length-gap;i++)
+            {
+                if(arr[i]>arr[i+gap])
+                {
+                    Swap(arr,i,i+gap);
+                    swapped = true;
+                }
+            }
         }
     }
 }
