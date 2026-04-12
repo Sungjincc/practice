@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="페이지-1" id="OSwztsJqvTiBYQTuWSo2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-2" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="開始" vertex="1">
+          <mxGeometry height="60" width="100" x="340" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-3" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="150" as="sourcePoint" />
+            <mxPoint x="390" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="target &amp;lt;- arr[j]&lt;div&gt;prev &amp;lt;- i-1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="330" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-6" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" value="i : 1; i&amp;lt;arr.length ;i ++" vertex="1">
+          <mxGeometry height="60" width="130" x="325" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-7" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="389.71000000000004" y="250" as="sourcePoint" />
+            <mxPoint x="389.71000000000004" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-8" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" value="prev &amp;gt; -1 &amp;amp;&amp;amp; arr[prev] &amp;gt; target" vertex="1">
+          <mxGeometry height="60" width="167.5" x="312.5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-9" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="389.71000000000004" y="360" as="sourcePoint" />
+            <mxPoint x="389.71000000000004" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="arr[prev+1] &amp;lt;-arr[prev]&lt;br&gt;&lt;div&gt;prev &amp;lt;- prev -1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="120" x="330" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="389.71" y="460" as="sourcePoint" />
+            <mxPoint x="389.71" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-13" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" value="" vertex="1">
+          <mxGeometry height="60" width="155" x="312.5" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-15" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="389.71" y="570" as="sourcePoint" />
+            <mxPoint x="389.71" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" value="arr[prev+1] &amp;lt;-target" vertex="1">
+          <mxGeometry height="70" width="120" x="325" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-18" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="389.71" y="670" as="sourcePoint" />
+            <mxPoint x="389.71" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-19" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;direction=west;" value="" vertex="1">
+          <mxGeometry height="60" width="130" x="320" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-20" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="389.83" y="780" as="sourcePoint" />
+            <mxPoint x="389.83" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-21" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="389.41" y="880" as="sourcePoint" />
+            <mxPoint x="389.41" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yNuGQRe5wq6kg6QHomeo-23" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" value="終了" vertex="1">
+          <mxGeometry height="60" width="100" x="335" y="880" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
