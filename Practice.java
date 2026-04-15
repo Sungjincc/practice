@@ -1,18 +1,19 @@
+import java.security.spec.RSAOtherPrimeInfo;
 import java.util.Scanner;
 
 public class Practice {
     public static void main(String args[]) {
+       //정수 배열 arr이 주어졌다.
+        // 배열에 들어있는 값 중 가장 큰 값을 구하는 알고리즘을 작성하시오.
+
         Scanner scanner = new Scanner(System.in);
-        int inputArr = scanner.nextInt();
-        int a = inputArr/10000;
-        inputArr= inputArr%10000;
-        int b = inputArr/1000;
-        inputArr = inputArr%1000;
-        int c = inputArr/100;
-        inputArr = inputArr%100;
-        int d = inputArr/10;
-        int e = inputArr%10;
-        System.out.println(a +""+b+""+c+""+d +""+e );
+        int[] arr = {10,20,30,40,50};
+        int max = arr[0];
+        for(int i = 1; i<arr.length;i++) {
+            if (max < arr[i]) max = arr[i];
+        }
+        System.out.println(max);
+
 
 
     }
